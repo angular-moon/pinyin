@@ -1,0 +1,11 @@
+{
+    "version": "1.0.0",
+    "description": "汉字转拼音",
+    "name": "pinyin",
+    "main": "pinyin.js",
+    "shim": {
+        "pinyin.js": {
+            "exports": "window.__pinyin"
+        }
+    }
+}
