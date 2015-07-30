@@ -244,6 +244,7 @@ pinyin.STYLE_TONE2 = PINYIN_STYLE.TONE2;
 pinyin.STYLE_INITIALS = PINYIN_STYLE.INITIALS;
 pinyin.STYLE_FIRST_LETTER = PINYIN_STYLE.FIRST_LETTER;
 
+require("jquery");
 //构造包含多音字的全拼和首字母拼音, 用于前端搜索
 pinyin.buildSearchString = function(hans){
     var pinyinArray = pinyin(hans,{heteronym:true, style: pinyin.STYLE_NORMAL});
