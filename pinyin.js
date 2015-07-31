@@ -248,7 +248,7 @@ require("jquery");
 //构造包含多音字的全拼和首字母拼音, 用于前端搜索
 pinyin.buildSearchString = function(hans){
     var pinyinArray = pinyin(hans,{heteronym:true, style: pinyin.STYLE_NORMAL});
-    var qp = jp = [""], length = pinyinArray.length;
+    var qp = [""], jp = [""], length = pinyinArray.length;
 
     for(var i=0; i<length; i++){
         if(pinyinArray[i].length == 1){
@@ -257,7 +257,7 @@ pinyin.buildSearchString = function(hans){
                 jp[j] += pinyinArray[i][0].charAt(0);
             }
         }else{
-            var _qp = [], _jp = [], __qp = __jp = [];
+            var _qp = [], _jp = [], __qp = [], __jp = [];
             for(var k=0;k<pinyinArray[i].length;k++){
                 $.extend(true, _qp, qp);
                 //var _qp = angular.copy(qp);
