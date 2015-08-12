@@ -65,6 +65,9 @@ console.log(pinyin("中心", {
   style: pinyin.STYLE_INITIALS, // 设置拼音风格
   heteronym: true
 }));                            // [ [ 'zh' ], [ 'x' ] ]
+
+//[angular-moon]增加了一个新的方法,用于生产包含多音字的字符串(主要用于前端检索)
+console.log(pinyin.buildSearchString("重庆"));  //chongqing zhongqing cq zq
 ```
 
 命令行：
