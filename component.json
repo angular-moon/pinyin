@@ -1,5 +1,5 @@
 {
-    "version": "2.5.0",
+    "version": "2.5.2",
     "description": "汉字拼音转换工具 https://github.com/hotoo/pinyin",
     "name": "pinyin",
     "main": "pinyin.js",

@@ -835,7 +835,7 @@ module.exports = {
 "miǎo":"秒渺藐",
 "kē":"科棵颗磕蝌",
 "biàn,pián":"便",
-"chóng,zhòng":"重",
+"zhòng,chóng":"重",
 "liǎ":"俩",
 "duàn":"段断缎锻",
 "cù":"促醋簇",
